@@ -99,9 +99,3 @@ La conexión usa la autenticación de Windows y no guarda usuarios ni contraseñ
 - **Ventaja del modelo documental:** una sola lectura trae toda la investigación.
 - **Ventaja del modelo relacional:** no repite datos (cada institución y cada autor se guardan una sola vez) y las claves foráneas garantizan la integridad.
 - **Diferencia de diseño:** en el JSON la institución pertenece a cada autor; en el modelo relacional pertenece a la investigación.
-
-## Posibles mejoras
-- Procedimientos almacenados para las operaciones de inserción y borrado.
-- Índices sobre las columnas de búsqueda más frecuentes.
-- Usar la tabla `PermisosUsuario` para controlar quién puede modificar datos.
-- Mover la institución a una relación autor-institución, como en el modelo documental.
