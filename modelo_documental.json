@@ -1,0 +1,54 @@
+{
+  "ID_investigacion": "INV12345",
+  "Titulo": "Estudio sobre inteligencia artificial en educación",
+  "Resumen": "Este estudio analiza los modelos de IA aplicados al aprendizaje personalizado...",
+  "Fecha": "2025-10-04",
+  "PalabrasClave": ["inteligencia artificial", "educación", "aprendizaje personalizado"],
+  "Autores": [
+    {
+      "ID_autor": "A000",
+      "Nombre": "Alex Ferney Urrego Palacios"
+    },
+    {
+      "ID_autor": "A001",
+      "Nombre": "Dra. María Pérez",
+      "Email": "maria.perez@institucion.edu",
+      "Institucion": {
+        "ID_institucion": "INS100",
+        "Nombre_institucion": "Universidad Nacional",
+        "Direccion": "Calle 123 #45-67",
+        "Telefono": "555-1234"
+      }
+    },
+    {
+      "ID_autor": "A002",
+      "Nombre": "Ing. Carlos Gómez",
+      "Email": "carlos.gomez@institucion.edu",
+      "Institucion": {
+        "ID_institucion": "INS100",
+        "Nombre_institucion": "Universidad Nacional",
+        "Direccion": "Calle 123 #45-67",
+        "Telefono": "555-1234"
+      }
+    }
+  ],
+  "AreaTematica": {
+    "ID_area": "AT10",
+    "Nombre_area": "Inteligencia Artificial",
+    "Descripcion": "Estudio y desarrollo de algoritmos inteligentes y sistemas cognitivos"
+  },
+  "Publicaciones": [
+    {
+      "ID_publicacion": "P001",
+      "Titulo_publicacion": "Revista de Tecnología Educativa",
+      "Fecha_publicacion": "2025-06-20",
+      "Tipo_publicacion": "Revista científica"
+    },
+    {
+      "ID_publicacion": "P002",
+      "Titulo_publicacion": "Congreso Internacional de IA",
+      "Fecha_publicacion": "2025-08-12",
+      "Tipo_publicacion": "Ponencia"
+    }
+  ]
+}
